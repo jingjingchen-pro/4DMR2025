@@ -83,9 +83,9 @@ p {
   padding: 0px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "mouse-500", Arial, Helvetica, sans-serif; color: #004C99; }
+  font-family: "mouse-500", Arial, Helvetica, sans-serif; color: black; }
 b {
-  font-family: "mouse-500", Arial, Helvetica, sans-serif; color: #004C99; }
+  font-family: "mouse-500", Arial, Helvetica, sans-serif; color: black; }
 
 strong {
   font-family: "mouse-500", Arial, Helvetica, sans-serif; }
@@ -362,7 +362,7 @@ body {
 
 /* ===================================== Resume Template CSS ================================== */
 .top-cover {
-  background-image: url(../images/bg.jpg);
+  background-image: url(../images/bg-3.png);
   background-size: cover;
   width: 100%; }
 
