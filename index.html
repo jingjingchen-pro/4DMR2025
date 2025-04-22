@@ -121,7 +121,7 @@
 
                         <div class="refer-cov">
 
-                          <p> <b>April 8</b> : The <a href="https://www.kaggle.com/competitions/4-dmr-workshop-challenge-2025-private" target="_blank">Kaggle website</a> of 4DMR challenge is available, the training & resource data will be released in few days.</p>
+                          <p> <b>April 8</b> : The <a href="https://www.kaggle.com/competitions/4-dmr-ijcai-workshop-challenge-2025" target="_blank">Kaggle website</a> of 4DMR challenge is available, the training & resource data will be released in few days.</p>
                         </div>
 
                           <!--
@@ -154,7 +154,7 @@
                             </div>
                         </div>
 
-                         <div style="text-align: center;"> <img src="assets/dataset/output5.gif" alt="Micro-gesture" width="300" height="300" class="center"></div>
+                         <div style="text-align: center;"> <img src="assets/dataset/output-au45.gif" alt="Micro-gesture" width="300" height="300" class="center"></div>
 
                            <p style="padding-top: 10px;">    <b>
                             Micro-expressions (ME) are a special form of facial expressions which may occur when people try to hide their true feelings for some reasons. </b>
@@ -286,7 +286,7 @@
                           </div>
 
                             <div style="text-align: center;">
-                              <img src="assets/dataset/output5.gif" alt="Micro-gesture" width="300" height="300" class="center">
+                              <img src="assets/dataset/output-au45.gif" alt="Micro-gesture" width="300" height="300" class="center">
                               <p style="text-align: center;">
                                 Fig. 1. 4D micro-expressions (3D mesh + temporal changes) examples.
                               </p>
@@ -462,78 +462,18 @@
                                   <p>Micro-expressions (MEs) are subtle, rapid, and involuntary facial movements that often occur in high-stakes scenarios or when individuals attempt to gain advantages or conceal their true emotions. Due to their extremely short duration and low intensity, MEs are difficult to detect and demand high-precision facial data.
                                     This challenge leverages the power of 4D facial analysis—capturing the temporal evolution of facial expressions in 3D space—to uncover the complex dynamics of facial muscle movements over time. Unlike traditional 2D or static 3D approaches, 4D analysis (3D mesh + temporal sequence) excels at identifying fleeting, involuntary micro-expressions by incorporating both spatial depth and motion cues. This multi-view, temporal information enriches the data and significantly improves recognition accuracy and robustness.</p>
                                     <br>
-                                    <p>This challenge will be organized on the <a href="https://www.kaggle.com/competitions/4-dmr-workshop-challenge-2025-private" target="_blank">Kaggle Website</a>. On the Kaggle website, instructions and data will be shared, and results from participants will be submitted and ranked. The top 3 teams will be awarded certificates if the top 3 teams submit papers and are present at the workshop.</p>
-
-
-                                      <!-- <p> The MiGA challenge is planned as a continuous, annual event, and each years MiGA will include different (multiple) challenge tasks, with large-scale datasets with expanding size. This year in MiGA, we will focus on two fundamental tasks of micro-gestures: <b>classification and online recognition</b>. The tracks of MiGA will be extended to leveraging those identity-insensitive cues to achieve hidden emotion understanding in the future. The challenge will be based on two spontaneous datasets: One is the SMG dataset published in FG2019 “Analyze Spontaneous Gestures for Emotional Stress State Recognition: A Microgesture Dataset and Analysis with Deep Learning” and the other is the iMiGUE dataset published in CVPR2021 “iMiGUE: An Identity-free Video Dataset for Micro-Gesture Understanding and Emotion Analysis”. In this MiGA, we plan to set two fundamental challenge tasks (Tracks), and participating teams can choose to compete on one or both tasks. The challenge will be organized on the Kaggle website. </p> -->
-
+                                    <p>This challenge will be organized on the <a href="https://www.kaggle.com/competitions/4-dmr-ijcai-workshop-challenge-2025" target="_blank">Kaggle Website</a>. On the Kaggle website, instructions will be shared, and results from participants will be submitted and ranked. The top 3 teams will be awarded certificates if the top 3 teams submit papers and are present at the workshop.</p>
+                                    <br>
+                                    <h5>Dataset acquisition</h5>
+                                    <p>To download the dataset used in this challenge, 4DME, please carefully read and complete the <a href="assets/dataset/LicenseAgreement_4DME.docx" target="_blank">license agreement</a>. Once completed, send the signed agreement to <a href="mailto:Mengting.Wei@oulu.fi">Mengting.Wei@oulu.fi</a>.</p>
+                                    <ul>
                                       
-                                       <!-- <p><b>Track 1: </b>Micro-gesture classification from short video clips. The MG datasets were collected from in-the-wild settings. Compared to ordinary action/gesture data, MGs concern more fine-grained and subtle body movements that occur spontaneously in practical interactions. Thus, learning those fine-grained body movement patterns, handling imbalanced sample distribution of MGs, and distinguishing the high heterogeneous MG samples of interclass are the big challenges to be addressed.</p> -->
-
-                                       <!-- <p><b>Track 2: </b>Online micro-gesture recognition from long video sequences. Unlike any existing online action/gesture recognition datasets in which samples are well aligned/performed in the sequence, MGs samples occur spontaneously in any combinations or orders just like seen in daily communicative scenarios. Thus, the task of online micro-gesture recognition requires dealing with more complex body-movement transition patterns (e.g., co-occurrence of multiple MGs, incomplete MGs and complicated transitions between MGs, etc.) and detecting fine-grained MGs from irrelevant/context body movements, which poses new challenges that havent been considered in previous gesture research.</p> -->
-                                           <p></p>
-                                           <div class="profess-cover row no-margin">
-                                               <div class="col-md-6">
-
-                                               </div>
-                                           </div>
-                                           <!-- <h5>The rules and guidelines for the competition/challenge</h5> -->
-
-                                           <!-- <b>1. Datasets</b><br>
-                                           <p><span style="color: red;">TBD</span></p> -->
-                                           <!-- <p> Datasets for the proposed challenge are available. The MiGA challenge is planned as a continuous annual event. Two benchmark datasets published on IJCV 2023 and CVPR 2021 are available and will be used for the challenge. The first one is the SMG dataset published in IJCV2023 Spontaneous Micro-Gesture (SMG) dataset consists of 3,692 samples of 17 MGs. The MG clips are annotated from 40 long video sequences (10-15 minutes) with 821,056 frames in total. The datasets were collected from 40 subjects while narrating a fake and real story to elicit the emotional states. The participants are recorded collected by Kinect resulting in four modalities, RGB, 3D skeletal joints, depth and silhouette.  In this workshop, we allow participants to use the skeleton, RGB or both modalities. <a style="color: blue;" href="https://www.oulu.fi/en/university/faculties-and-units/faculty-information-technology-and-electrical-engineering/center-machine-vision-and-signal-analysis"> Details about SMG dataset</a> </p>
-                                               <br>
-                                                 <p> The second dataset is iMiGUE published in CVPR2021. Micro-Gesture Understanding and Emotion analysis (iMiGUE) dataset consists of 32 MGs plus one non-MG class collected from post-match press conferences videos of famous tennis players. The dataset consists of 18,499 samples of MGs to detect negative and positive emotions. The MG clips are annotated from 359 long video sequences (0.5-26 minutes) with 3,765,600 frames in total. The dataset contains RGB modality and 2D skeletal joints collected from Open-Pose. In this workshop, we allow participants to use the skeleton, RGB or both modalities.
-                                                 <a style="color: blue;" href="https://www.oulu.fi/en/university/faculties-and-units/faculty-information-technology-and-electrical-engineering/center-machine-vision-and-signal-analysis"> Details about iMiGUE dataset</a></p>
-                                                 <br>
-                                               <p>Note that: 1) not all data are used for the challenge. 2) part of the data will be selected and tailored for different challenge tasks, please follow the Kaggle competition links to obtain and process the datasets.</p> <br> -->
-                                           <!-- <b>2. Evaluation</b><br>
-                                           <p><span style="color: red;">TBD</span></p> -->
-                                           <!-- <p> We deploy a cross-subject evaluation protocol. For MG classification track, 13,936 and 3,692 MG clips from iMiGUE and SMG datasets will be used for training and validating, and the remaining 4,563 MG clips from iMiGUE will be used for testing. For MG online recognition track, 252 and 40 long sequences from iMiGUE and SMG datasets will be used for training and validating, and the remaining 104 long sequences from iMiGUE will be used for testing. </p>
-                                            <br>
-                                            <p><b>MG classification track:</b> We report Top-1 accuracy on the testing setes on the iMiGUE dataset. Submissions will be ranked based on Top-1 accuracy on the overall split (if Top-1 results are the same, then Top-5 will be used to compare the results).</p>
-                                            <br>
-                                            <p><b>MG online recognition track:</b> We jointly evaluate the detection and classification performances of algorithms by using the F1 score measurement defined below: F1 =2*Precision*Recall/(Precision+Recall), given a long video sequence that needs to be evaluated, P recision is the fraction of correctly classified MGs among all gestures retrieved in the sequence by algorithms, while Recall (or sensitivity) is the fraction of MGs that have been correctly retrieved over the total amount of annotated MGs.</p>
-                                           <br>
-                                           <p>Submission format for both tracks. Participants must submit their predictions in the a single .csv file on the Kaggle platform, more detailed instuctions for each track can be found on Kaggle. The results will be evaluated on the server and displayed on the ranking list in real-time. The organization team has the right to examine the participants source code to ensure the reproducibility of the algorithms. The final results and ranking will be confirmed and announced by organizers. </p>
-                                           <br> -->
-
-                                           <!-- <div class="profess-cover row no-margin">
-                                               <div class="col-md-6">
-
-                                               </div>
-                                           </div> -->
-                                           <!-- <h5>Participation guidelines</h5>
-                                           Please visit the Kaggle websites to join the competitions:
-                                           <p><span style="color: red;">TBD</span></p> -->
-                                           <!-- <p>  <a style="color: blue;" href="https://kaggle.com/competitions/2nd-miga-ijcai-challenge-track1"> The 2nd MiGA-IJCAI Challenge Track 1: Micro-gesture Classification</a> </p>
-
-                                           <p>  <a style="color: blue;" href="https://kaggle.com/competitions/2nd-miga-ijcai-challenge-track2"> The 2nd MiGA-IJCAI Challenge Track 2: Micro-gesture Online Recognition</a> </p> -->
-                                           <div class="profess-cover row no-margin">
-                                               <div class="col-md-6">
-
-                                               </div>
-                                           </div>
-
-                                            <!-- <h5>Final results are available </h5>
-                                            <p style="padding-top: 20px"> </p>
-                                        We have examined all source code submitted and finalized the rankings of the MiGA2 challenge. Congratulations to the following teams on their final rankings:
-                                            <br> <br>
-                                           <p>Track 1: Micro-gesture Classification </p>
-                                           <p>1. 'HFUT-VUT' </p>
-                                           <p>2. 'NPU-MUCIS' </p>
-                                           <p>3. 'ywww11' </p>
-                                            <br>
-                                           <p>Track 2: Micro-gesture Online Recognition</p>
-                                            <p>1. 'NPU-MUCIS' </p>
-                                           <p>2. 'HFUT-VUT' </p>
-                                           <p>3. 'JDY203' </p>
-                                           <div class="profess-cover row no-margin">
-                                               <div class="col-md-6">
-
-                                               </div>
-                                           </div>  -->
-
+                                      <div style="margin-left: 20px; text-align: justify;">
+                                      <li style="list-style: disc;">Reference: Li, Xiaobai, et al. "4DME: A spontaneous 4D micro-expression dataset with multimodalities." IEEE Transactions on Affective Computing (2022).</li>
+                                      
+                                      </div>
+                                  </ul>
+                                  <br>
                     <h5>Challenge Important Dates (might slightly adjust later)</h5>
                     <ul>
                         The timeline for the Challenge will be organized as follows:
